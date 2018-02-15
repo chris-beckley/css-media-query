@@ -1,0 +1,42 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+  background-color:#D5DDE5;
+  font-size: 10px;
+  display: block;
+  float: left;
+  margin: 3%;
+  padding: 2%;
+  width: 50%;
+}
+
+h1{
+  background-color: #93AAC2;
+  font-family: Helvetica, sans-serif;
+  font-size: 2.0em;
+  font-weight: 400;
+  word-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 2.1em;
+  font-weight: 600;
+}
+
+.container{
+  margin: 20px auto;
+  width: 90%;
+}
+
+@media screen and (min-width: 575px) {
+  .container {
+    margin: 1%;
+    width: 48%;
+  }
+}
