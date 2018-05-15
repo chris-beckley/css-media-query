@@ -5,37 +5,72 @@
 body {
   background-color:#D5DDE5;
   font-size: 10px;
-  display: inline-block;
+
 }
 
-h1{
-  background-color: #93AAC2;
+.container {
+  margin: 1% auto;
+  width: 90%;
+
+}
+
+div {
+  float: left;
+  margin: 1% 0;
+  width: 100%;
+  padding: 3%;
+
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+h1 {
+  background-color: #D5DDE5;
   font-family: Helvetica, sans-serif;
   font-size: 2.0em;
   font-weight: 400;
   word-spacing: 5px;
   text-transform: uppercase;
   text-align: center;
-  margin: 8%;
-  padding: 2%;
+  margin: 5%;
 }
 
 h2 {
   font-family: Helvetica;
   font-size: 2.1em;
   font-weight: 600;
-  text-align: center;
-}
+  position: absolute;
+  margin: 2%;
 
-img {
-  margin-left: 65%;
-  padding: 2%;
 }
 
 
-@media screen and (min-width: 575px) {
-  body {
+
+@media screen and (min-width: 768px) {
+
+  div {
+    width: 46%;
+    margin: 1%
+
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  div {
+    width: 22%;
     margin: 1%;
-    width: 48%;
+  }
+
+  img {
+    height: 300px;
+  }
+
+  h2 {
+    margin: 25px;
   }
 }
